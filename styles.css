@@ -1,0 +1,108 @@
+
+#questionBox {
+    max-width: 800px; 
+    margin: 0 auto; 
+  }
+  
+  .question {
+    margin-bottom: 20px;
+  }
+  
+  .question p {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .question label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  
+  h1, h2 {
+    text-align: center;
+  }
+
+  h1 {
+    background-color: #9B2226;
+    color: white;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+  }
+
+  #startButton {
+    width: 200px;
+   font-size: 30px;
+    display: block;
+    margin:  200px auto;
+  }
+
+#testContainer {
+
+  background-color: #001219;
+  width: 60%;
+  min-height: 450px;
+  margin: 50px auto;
+  border-radius: 20px;
+}
+
+h2 {
+  padding-top: 30px;
+  
+  color: white;
+}
+
+#questionBox {
+  padding: 30px 0 20px 30px;
+  color: white;
+ 
+}
+
+#timerDisplay {
+
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  font-weight: bold;
+}
+
+#prevButton {
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: #CA6702;
+  color: white;
+}
+
+#prevButton:hover {
+  background-color: #ca3b02;
+}
+
+#nextButton {
+  margin-left: 50px;
+  margin-top: 20px;
+  background-color: #94D2BD;
+  
+}
+
+#nextButton:hover {
+  background-color: #19c289;
+}
+
+
+#submitButton {
+  display: block;
+  margin: 30px auto;
+ color: white;
+  background-color: #9B2226;
+  width: 150px;
+}
+
+
+#submitButton:hover {
+  background-color: #8b0e12;
+}
+  
